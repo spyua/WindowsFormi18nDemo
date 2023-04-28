@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsi18nDemo", "WindowsFormsi18nDemo\WindowsFormsi18nDemo.csproj", "{7D833ED0-8CE6-4122-9223-45EC9369B698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguagePackage", "LanguagePackage\LanguagePackage.csproj", "{71397A82-66A2-4FBB-B69C-AF45DDC03F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D833ED0-8CE6-4122-9223-45EC9369B698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D833ED0-8CE6-4122-9223-45EC9369B698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D833ED0-8CE6-4122-9223-45EC9369B698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D833ED0-8CE6-4122-9223-45EC9369B698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71397A82-66A2-4FBB-B69C-AF45DDC03F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71397A82-66A2-4FBB-B69C-AF45DDC03F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71397A82-66A2-4FBB-B69C-AF45DDC03F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71397A82-66A2-4FBB-B69C-AF45DDC03F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97E1F85C-2793-496E-A0A1-9FD50B459149}
+	EndGlobalSection
+EndGlobal

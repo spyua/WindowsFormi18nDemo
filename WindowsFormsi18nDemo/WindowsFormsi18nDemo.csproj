@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,8 +53,41 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Page\BaseUCPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page\BaseUCPage.Designer.cs">
+      <DependentUpon>BaseUCPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageOne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page\PageOne.Designer.cs">
+      <DependentUpon>PageOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page\PageTwo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page\PageTwo.Designer.cs">
+      <DependentUpon>PageTwo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\En_Us.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Zh_Tw.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page\PageOne.resx">
+      <DependentUpon>PageOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page\PageTwo.resx">
+      <DependentUpon>PageTwo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

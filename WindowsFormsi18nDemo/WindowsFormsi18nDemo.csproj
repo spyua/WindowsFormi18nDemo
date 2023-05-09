@@ -76,10 +76,10 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Language\En_Us.resx">
+    <EmbeddedResource Include="Language\en_Us.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Language\Zh_Tw.resx">
+    <EmbeddedResource Include="Language\zh_Tw.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Page\PageOne.resx">

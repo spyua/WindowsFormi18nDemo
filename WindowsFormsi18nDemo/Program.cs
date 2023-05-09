@@ -18,7 +18,7 @@ namespace WindowsFormsi18nDemo
         {
             // 多語設置 Path與預設語系
             LanguageInterpret.ResourcePath = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["LanguageSourcePath"];
-            LanguageInterpret.NowLanguage = LanguageInterpret.LanguageClassify.Zh_Tw;
+            LanguageInterpret.NowLanguage = LanguageInterpret.LanguageClassify.zh_Tw;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

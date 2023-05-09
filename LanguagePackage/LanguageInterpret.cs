@@ -17,14 +17,13 @@ namespace LanguagePackage
         /// </summary>
         public enum LanguageClassify
         {
-            /// <summary>
-            /// 中文
-            /// </summary>
-            Zh_Tw,
-            /// <summary>
-            /// 英文
-            /// </summary>
-            En_Us
+            zh_Tw, en_Us, ar_EG, az_AZ, bg_BG, bn_BD, by_BY, ca_ES, cs_CZ, da_DK,
+            de_DE, el_GR, en_GB, en_US, es_ES, eu_ES, et_EE, fa_IR, fi_FI, fr_BE,
+            fr_CA, fr_FR, ga_IE, gl_ES, he_IL, hi_IN, hr_HR, hu_HU, hy_AM, id_ID,
+            it_IT, is_IS, ja_JP, ka_GE, kmr_IQ, kn_IN, kk_KZ, km_KH, ko_KR, lt_LT,
+            lv_LV, mk_MK, ml_IN, mn_MN, ms_MY, nb_NO, ne_NP, nl_BE, nl_NL, pl_PL,
+            pt_BR, pt_PT, ro_RO, ru_RU, si_LK, sk_SK, sr_RS, sl_SI, sv_SE, ta_IN,
+            th_TH, tr_TR, tk_TK, ur_PK, uk_UA, vi_VN, zh_CN, zh_HK, my_MM
         }
 
         private static LanguageClassify _nowLanguage;

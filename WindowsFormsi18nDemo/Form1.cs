@@ -18,7 +18,7 @@ namespace WindowsFormsi18nDemo
         private PageOne PageOne;
         private PageTwo PageTwo;
         public LanguageInterpretViewManager LanguageInterpretViewManager { get; set; }
-        private LanguageClassify NowLanguage => radioButton_ch.Checked ? LanguageClassify.Zh_Tw : LanguageClassify.En_Us;
+        private LanguageClassify NowLanguage => radioButton_ch.Checked ? LanguageClassify.zh_Tw : LanguageClassify.en_Us;
 
         public Form1()
         {
